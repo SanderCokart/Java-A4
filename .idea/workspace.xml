@@ -1,101 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fda42935-5a16-47ef-82fd-461ba6c93054" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eindopdracht.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.5.0-RC1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.5.0-RC1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/Factuurregel + Product.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/META-INF/Eindopdracht.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/Technical Design.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/assignment4/Controller/Controller$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/assignment4/Controller/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/assignment4/Model/Model.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/assignment4/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/assignment4/View/View.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/assignment5/Btw.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/assignment6/InvoiceRow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/assignment6/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/assignment6/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/controller/Controller$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/controller/Controller$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/controller/Controller$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/controller/Controller$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/controller/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/model/Model.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/view/View.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/functioneel ontwerp.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version1_manager/Controller/Controller$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version1_manager/Controller/Controller$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version1_manager/Controller/Controller$3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version1_manager/Controller/Controller$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version1_manager/Controller/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version1_manager/Model/Model.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version1_manager/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version1_manager/View/MainMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version3_subscriptionOnChange/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version3_subscriptionOnChange/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version3_subscriptionOnChange/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version3_subscriptionOnChange/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version3_subscriptionOnChange/.idea/version3_subscriptionOnChange.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version3_subscriptionOnChange/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version3_subscriptionOnChange/Controller/Controller$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version3_subscriptionOnChange/Controller/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version3_subscriptionOnChange/Model/Model.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version3_subscriptionOnChange/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Eindopdracht/version3_subscriptionOnChange/View/View.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Eindopdracht/eindopdrachtv2/test/ModelTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factuurregel + Product.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Technical Design.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/Model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/View/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment5/Btw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment6/InvoiceRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment6/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eindopdrachtv2/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eindopdrachtv2/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eindopdrachtv2/model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eindopdrachtv2/view/View.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eindopdrachtv2/view/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functioneel ontwerp.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version1_manager/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version1_manager/Model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version1_manager/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version1_manager/View/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version3_subscriptionOnChange/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version3_subscriptionOnChange/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version3_subscriptionOnChange/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version3_subscriptionOnChange/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version3_subscriptionOnChange/.idea/version3_subscriptionOnChange.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version3_subscriptionOnChange/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version3_subscriptionOnChange/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version3_subscriptionOnChange/Model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version3_subscriptionOnChange/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/version3_subscriptionOnChange/View/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/eindopdrachtv2/test/ModelTest.java" afterDir="false" />
+    <list default="true" id="fda42935-5a16-47ef-82fd-461ba6c93054" name="Default Changelist" comment="Created a fully working cal">
+      <change afterPath="$PROJECT_DIR$/src/Calculator/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator/model/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator/view/View.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/model/Model.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,44 +23,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/model/Model.java">
+        <entry file="file://$PROJECT_DIR$/src/Calculator/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1416">
-              <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+            <state relative-caret-position="192">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Calculator/model/Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+              <folding>
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#initOperatorKeypadArray#0;class#View#0" />
+                <element signature="method#filterTextfield#0;class#View#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/eindopdrachtv2/test/ModelTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/view/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1704">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/view/View.form">
+        <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.form">
           <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Calculator/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setupNumberpadActionListener#0;class#Controller#0" />
+                <element signature="method#setupCancelAllActionListener#0;class#Controller#0" />
+                <element signature="method#setupCancelActionListener#0;class#Controller#0" />
+                <element signature="method#setupTextFieldKeyListener#0;class#Controller#0" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -156,6 +88,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -163,6 +96,7 @@
     <findStrings>
       <find>input</find>
       <find>keypressed</find>
+      <find>`</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,6 +111,12 @@
         <option value="$PROJECT_DIR$/src/eindopdrachtv2/view/View.java" />
         <option value="$PROJECT_DIR$/test/eindopdrachtv2/test/ModelTest.java" />
         <option value="$PROJECT_DIR$/src/eindopdrachtv2/model/Model.java" />
+        <option value="$PROJECT_DIR$/src/Calculator/view/calculatorPanel.java" />
+        <option value="$PROJECT_DIR$/src/Calculator/Runner.java" />
+        <option value="$PROJECT_DIR$/src/Calculator/model/Model.java" />
+        <option value="$PROJECT_DIR$/src/Calculator/view/View.java" />
+        <option value="$PROJECT_DIR$/src/Calculator/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/Calculator/view/View.form" />
       </list>
     </option>
   </component>
@@ -192,7 +132,35 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java A4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java A4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java A4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java A4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java A4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java A4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java A4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java A4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -210,7 +178,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -233,7 +201,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ModelTest">
+  <component name="RunManager" selected="Application.Runner (1)">
+    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator.Runner" />
+      <module name="Eindopdracht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eindopdrachtv2.Runner" />
       <module name="Eindopdracht" />
@@ -296,6 +277,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (1)" />
         <item itemvalue="JUnit.ModelTest" />
         <item itemvalue="JUnit.ModelTest.calculateDivide" />
         <item itemvalue="JUnit.ModelTest.calculate" />
@@ -314,6 +296,14 @@
       <option name="presentableId" value="Default" />
       <updated>1560802363502</updated>
     </task>
+    <task id="LOCAL-00001" summary="UPLOAD JAVA A4">
+      <created>1560880427958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560880427958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -329,11 +319,18 @@
     <history-entry file="ModelTest - 2019.06.18 at 11h 06m 24s.xml">
       <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ModelTest - 2019.06.18 at 20h 15m 50s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelTest - 2019.06.18 at 20h 18m 44s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13326226" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -341,16 +338,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32887402" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32887402" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998884" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32998884" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -366,6 +363,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/src" />
     </ignored-roots>
+    <MESSAGE value="UPLOAD JAVA A4" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPLOAD JAVA A4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/test/ModelTest.java" />
@@ -376,23 +375,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator.java" />
+    <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1416">
+        <state relative-caret-position="356">
           <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/eindopdrachtv2/test/ModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
+        <state relative-caret-position="788">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1704">
+        <state relative-caret-position="788">
           <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
@@ -400,12 +407,67 @@
     <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/view/View.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator/view/calculatorPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        <state relative-caret-position="96">
+          <caret line="4" column="43" selection-end-line="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initOperatorKeypadArray#0;class#View#0" />
+            <element signature="method#filterTextfield#0;class#View#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setupNumberpadActionListener#0;class#Controller#0" />
+            <element signature="method#setupCancelAllActionListener#0;class#Controller#0" />
+            <element signature="method#setupCancelActionListener#0;class#Controller#0" />
+            <element signature="method#setupTextFieldKeyListener#0;class#Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">

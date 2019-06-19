@@ -120,12 +120,13 @@
       </component>
       <component id="8d29e" class="javax.swing.JTextField" binding="textField">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="1" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties>
           <font name="Roboto" size="24" style="1"/>
+          <horizontalAlignment value="10"/>
           <text value=""/>
         </properties>
       </component>

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fda42935-5a16-47ef-82fd-461ba6c93054" name="Default Changelist" comment="Created a fully working calculator. More features to come!">
+    <list default="true" id="fda42935-5a16-47ef-82fd-461ba6c93054" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator/view/View.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/view/View.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/view/View.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,29 +21,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calculator/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculator/model/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="340">
+              <caret line="41" column="57" lean-forward="true" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
               <folding>
                 <element signature="method#Model#0;class#Model#0" />
                 <element signature="method#setOperator#0;class#Model#0" />
                 <element signature="method#setOperatorIsPressed#0;class#Model#0" />
                 <element signature="n#!!block;n#getOperatorIsPressed#0;n#Model#0" />
-                <element signature="method#calculate#0;class#Model#0" />
-                <element signature="e#969#1829#0" />
                 <element signature="e#1036#1133#1" />
-                <element signature="e#1263#1310#1" />
                 <element signature="e#1340#1467#1" />
                 <element signature="e#1473#1586#1" />
                 <element signature="method#reset#0;class#Model#0" />
@@ -60,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-447">
-              <caret line="127" column="67" selection-start-line="127" selection-start-column="67" selection-end-line="127" selection-end-column="67" />
+            <state relative-caret-position="93">
+              <caret line="156" column="32" selection-start-line="156" selection-start-column="32" selection-end-line="156" selection-end-column="32" />
               <folding>
                 <element signature="method#View#0;class#View#0" />
                 <element signature="e#1415#2933#0" />
@@ -160,7 +155,7 @@
         <entry file="file://$PROJECT_DIR$/src/Calculator/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="method#Controller#0;class#Controller#0" />
                 <element signature="method#setupSquaredButtonActionListener#0;class#Controller#0" />
@@ -236,14 +231,14 @@
         <option value="$PROJECT_DIR$/src/eindopdrachtv2/model/Model.java" />
         <option value="$PROJECT_DIR$/src/Calculator/view/calculatorPanel.java" />
         <option value="$PROJECT_DIR$/src/Calculator/Runner.java" />
-        <option value="$PROJECT_DIR$/src/Calculator/view/View.form" />
         <option value="$PROJECT_DIR$/src/Calculator/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/Calculator/model/Model.java" />
         <option value="$PROJECT_DIR$/src/Calculator/view/View.java" />
+        <option value="$PROJECT_DIR$/src/Calculator/view/View.form" />
+        <option value="$PROJECT_DIR$/src/Calculator/model/Model.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1072" />
     <option name="height" value="1047" />
@@ -253,7 +248,11 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -408,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560947056001</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DARK MODE!">
+      <created>1560972576524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560972576524</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -432,10 +438,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1072" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.141258" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,7 +450,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.493083" visible="true" weight="0.3310811" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.493083" visible="true" weight="0.3277592" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,7 +506,8 @@
     <MESSAGE value="UPLOAD JAVA A4" />
     <MESSAGE value="Created a fully working calculator, needs commenting." />
     <MESSAGE value="Created a fully working calculator. More features to come!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a fully working calculator. More features to come!" />
+    <MESSAGE value="DARK MODE!" />
+    <option name="LAST_COMMIT_MESSAGE" value="DARK MODE!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/test/ModelTest.java" />
@@ -545,10 +552,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.jfd" />
     <entry file="file://$PROJECT_DIR$/src/Calculator/view/calculatorPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/Calculator/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="method#Controller#0;class#Controller#0" />
             <element signature="method#setupSquaredButtonActionListener#0;class#Controller#0" />
@@ -591,10 +605,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-447">
-          <caret line="127" column="67" selection-start-line="127" selection-start-column="67" selection-end-line="127" selection-end-column="67" />
+        <state relative-caret-position="93">
+          <caret line="156" column="32" selection-start-line="156" selection-start-column="32" selection-end-line="156" selection-end-column="32" />
           <folding>
             <element signature="method#View#0;class#View#0" />
             <element signature="e#1415#2933#0" />
@@ -683,22 +700,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="340">
+          <caret line="41" column="57" lean-forward="true" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
           <folding>
             <element signature="method#Model#0;class#Model#0" />
             <element signature="method#setOperator#0;class#Model#0" />
             <element signature="method#setOperatorIsPressed#0;class#Model#0" />
             <element signature="n#!!block;n#getOperatorIsPressed#0;n#Model#0" />
-            <element signature="method#calculate#0;class#Model#0" />
-            <element signature="e#969#1829#0" />
             <element signature="e#1036#1133#1" />
-            <element signature="e#1263#1310#1" />
             <element signature="e#1340#1467#1" />
             <element signature="e#1473#1586#1" />
             <element signature="method#reset#0;class#Model#0" />
@@ -706,13 +717,6 @@
             <element signature="e#1959#1995#1" />
             <element signature="n#!!block;n#calculateSquared#0;n#Model#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>

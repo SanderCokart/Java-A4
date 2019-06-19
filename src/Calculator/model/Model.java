@@ -36,10 +36,10 @@ public class Model {//calculator
             case '+':
                 Random rand = new Random();
                 int randomNumber = rand.nextInt(100);
-                if (randomNumber < 95) {
+                if (randomNumber < 90) {
                     return String.valueOf(number1 + number2);//calculate plus
-                } else {
-                    return "Hubs";
+                } else {//EASTER EGG
+                    return "Hubs " + String.valueOf(number1 + number2);
                 }
             case '-':
                 return String.valueOf(number1 - number2);//calculate minus

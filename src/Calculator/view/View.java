@@ -2,8 +2,7 @@ package Calculator.view;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+import java.awt.event.*;
 
 public class View{
     //COMPONENTS START
@@ -30,18 +29,266 @@ public class View{
     private JButton backspaceButton;
     private JButton factorialButton;
     private JButton squaredButton;
+    private JCheckBox darkModeCheckBox;
+    private JToolBar toolBar;
     private JButton[] keyNumberpadArray;
     private JButton[] keyOperatorpadArray;
-    private boolean darkmodeEnabled;
+    private JButton[] otherButtonsArray;
+    private boolean darkMode = true;
     //COMPONENTS END
 
     public View(){
         createFrame("Calculator");
-        filterTextfield();
+        filterTextField();
         initNumberKeypadArray();
         initOperatorKeypadArray();
-        setDarkmodeEnabled(true);
-        }//constructor
+        initOtherButtonsArray();
+        initColors();
+        removeFocus();
+        setupDarkModeCheckBoxActionListener();
+    }//constructor
+
+    private void setupDarkModeCheckBoxActionListener() {
+        darkModeCheckBox.addMouseListener(new MouseListener() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mousePressed(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseReleased(MouseEvent e) {
+                if (!darkModeCheckBox.isSelected()){
+                    darkMode = false;
+                    textField.setBackground(Color.gray);
+                    textField.setForeground(Color.black);
+                    calculatorPanel.setBackground(Color.gray);
+                    toolBar.setBackground(Color.gray);
+                    for (int i = 0; i < keyNumberpadArray.length; i++) {
+                        if (keyNumberpadArray[i].getText().equals(".")){
+                            keypadDot.setBackground(Color.lightGray);
+                            keypadDot.setForeground(Color.black);
+                        } else {
+                            keyNumberpadArray[i].setBackground(Color.white);
+                            keyNumberpadArray[i].setForeground(Color.black);
+                        }
+                    }
+
+                    for (int i = 0; i < keyOperatorpadArray.length; i++) {
+                        keyOperatorpadArray[i].setBackground(Color.lightGray);
+                        keyOperatorpadArray[i].setForeground(Color.black);
+                    }
+
+                    for (int i = 0; i < otherButtonsArray.length; i++) {
+                        otherButtonsArray[i].setBackground(Color.lightGray);
+                        otherButtonsArray[i].setForeground(Color.black);
+                    }
+
+                } else {
+                    darkMode = true;
+                    textField.setBackground(new Color(31,31,31));
+                    textField.setForeground(Color.white);
+                    calculatorPanel.setBackground(new Color(31,31,31));
+                    toolBar.setBackground(new Color(31,31,31));
+                    for (int i = 0; i < keyNumberpadArray.length; i++) {
+                        if (keyNumberpadArray[i].getText().equals(".")){
+                            keypadDot.setBackground(new Color(19,19,19));
+                            keypadDot.setForeground(Color.white);
+                        } else {
+                            keyNumberpadArray[i].setBackground(new Color(0,0,0));
+                            keyNumberpadArray[i].setForeground(Color.white);
+                        }
+
+                    }
+                    for (int i = 0; i < keyOperatorpadArray.length; i++) {
+                        keyOperatorpadArray[i].setBackground(new Color(19,19,19));
+                        keyOperatorpadArray[i].setForeground(Color.white);
+                    }
+                    for (int i = 0; i < otherButtonsArray.length; i++) {
+                        otherButtonsArray[i].setBackground(new Color(19,19,19));
+                        otherButtonsArray[i].setForeground(Color.white);
+                    }
+                }
+            }
+
+            @Override
+            public void mouseEntered(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
+
+            }
+        });
+    }//sets colors for hovering over buttons dependent on dark mode
+
+    private void removeFocus() {
+        for (int i = 0; i < getKeyNumberpadArray().length; i++) {
+            getKeyNumberpadArray()[i].setFocusable(false);
+        }
+        for (int i = 0; i < getKeyOperatorpadArray().length; i++) {
+            getKeyOperatorpadArray()[i].setFocusable(false);
+        }
+        for (int i = 0; i < otherButtonsArray.length; i++) {
+            otherButtonsArray[i].setFocusable(false);
+        }
+    }//makes all elements except for the textField to be focusable
+
+    private void initColors() {
+        toolBar.setBackground(new Color(31,31,31));
+        toolBar.setBorder(null);
+        darkModeCheckBox.setBackground(new Color(31,31,31));
+        darkModeCheckBox.setForeground(Color.white);
+        darkModeCheckBox.setBorder(null);
+        calculatorPanel.setBackground(new Color(31,31,31));
+        textField.setBackground(new Color(31,31,31));
+        textField.setForeground(Color.white);
+        textField.setBorder(null);
+        colorizeNumberButtons();
+        colorizeOperatorButtons();
+        colorizeOtherButtons();
+    }//sets up default colors of items otherwise unreachable
+
+    private void colorizeOtherButtons() {
+        for (int i = 0; i < otherButtonsArray.length; i++) {
+            otherButtonsArray[i].setBorder(null);
+            int loopTracker = i;
+            otherButtonsArray[i].addMouseListener(new MouseListener() {
+                @Override
+                public void mouseClicked(MouseEvent e) {
+
+                }
+
+                @Override
+                public void mousePressed(MouseEvent e) {
+
+                }
+
+                @Override
+                public void mouseReleased(MouseEvent e) {
+
+                }
+
+                @Override
+                public void mouseEntered(MouseEvent e) {
+                    if (darkMode) {
+                        otherButtonsArray[loopTracker].setBackground(new Color(31,31,31));
+                    } else {
+                        otherButtonsArray[loopTracker].setBackground(Color.gray);
+                    }
+                }
+
+                @Override
+                public void mouseExited(MouseEvent e) {
+                    if (darkMode) {
+                        otherButtonsArray[loopTracker].setBackground(new Color(19,19,19));
+                    } else {
+                        otherButtonsArray[loopTracker].setBackground(Color.lightGray);
+                    }
+                }
+            });
+        }
+    }//determines the colors of the other buttons it is dependent on dark mode
+
+    private void colorizeOperatorButtons() {
+        for (int i = 0; i < keyOperatorpadArray.length; i++) {
+            keyOperatorpadArray[i].setBorder(null);
+            int loopTracker = i;
+            keyOperatorpadArray[i].addMouseListener(new MouseListener() {
+                @Override
+                public void mouseClicked(MouseEvent e) {
+
+                }
+
+                @Override
+                public void mousePressed(MouseEvent e) {
+
+                }
+
+                @Override
+                public void mouseReleased(MouseEvent e) {
+
+                }
+
+                @Override
+                public void mouseEntered(MouseEvent e) {
+                    keyOperatorpadArray[loopTracker].setBackground(new Color(221,0,0));
+                }
+
+                @Override
+                public void mouseExited(MouseEvent e) {
+                    if (darkMode) {
+                        getKeyOperatorpadArray()[loopTracker].setBackground(new Color(19, 19, 19));
+                    } else {
+                        getKeyOperatorpadArray()[loopTracker].setBackground(Color.lightGray);
+                    }
+                }
+            });
+        }
+    }//determines the colors of the operator buttons it is dependent on dark mode
+
+    private void colorizeNumberButtons() {
+        for (int i = 0; i < keyNumberpadArray.length; i++) {
+            keyNumberpadArray[i].setBorder(null);
+            int loopTracker = i;
+            keyNumberpadArray[i].addMouseListener(new MouseListener() {
+                @Override
+                public void mouseClicked(MouseEvent e) {
+
+                }
+
+                @Override
+                public void mousePressed(MouseEvent e) {
+
+                }
+
+                @Override
+                public void mouseReleased(MouseEvent e) {
+
+                }
+
+                @Override
+                public void mouseEntered(MouseEvent e) {
+                    if (darkMode) {
+                        keyNumberpadArray[loopTracker].setBackground(new Color(31, 31, 31));
+                    } else {
+                        keyNumberpadArray[loopTracker].setBackground(Color.gray);
+                    }
+                }
+
+                @Override
+                public void mouseExited(MouseEvent e) {
+                    if (darkMode) {
+                        if (keyNumberpadArray[loopTracker].getText().equals(".")){
+                            keyNumberpadArray[loopTracker].setBackground(new Color(19,19,19));
+                        } else {
+                            keyNumberpadArray[loopTracker].setBackground(new Color(0,0,0));
+                        }
+                    } else {
+                        if (keyNumberpadArray[loopTracker].getText().equals(".")) {
+                            keypadDot.setBackground(Color.lightGray);
+                        } else {
+                            keyNumberpadArray[loopTracker].setBackground(Color.white);
+                        }
+                    }
+                }
+            });
+        }
+    }//determines the colors of the number buttons it is dependent on dark mode
+
+    private void initOtherButtonsArray() {
+        otherButtonsArray = new JButton[5];
+        otherButtonsArray[0] = backspaceButton;
+        otherButtonsArray[1] = factorialButton;
+        otherButtonsArray[2] = cButton;
+        otherButtonsArray[3] = caButton;
+        otherButtonsArray[4] = squaredButton;
+    }//initializes an array containing all operator buttons
 
     private void initOperatorKeypadArray() {
         keyOperatorpadArray = new JButton[5];
@@ -67,7 +314,7 @@ public class View{
         keyNumberpadArray[10] = keypadDot;
     }//initializes an array containing all numbered button
 
-    private void filterTextfield() {
+    private void filterTextField() {
         textField.addKeyListener(new KeyListener() {
             @Override
             public void keyTyped(KeyEvent e) {
@@ -94,7 +341,7 @@ public class View{
         frame.setContentPane(calculatorPanel);
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
-        frame.setSize(300,400);
+        frame.setSize(400,500);
     }//initializes the frame
 
     public String getTextFieldText() {
@@ -111,7 +358,7 @@ public class View{
 
     public JButton getCaButton() {
         return caButton;
-    }//returns caButton object
+    }//returns ceButton object
 
     public JButton getcButton() {
         return cButton;
@@ -137,21 +384,4 @@ public class View{
         return squaredButton;
     }//returns squareButton object
 
-    public void setDarkmodeEnabled(boolean darkmodeEnabled) {
-        this.darkmodeEnabled = darkmodeEnabled;
-        if (darkmodeEnabled){
-            for (int i = 0; i <getKeyOperatorpadArray().length ; i++) {
-                getKeyOperatorpadArray()[i].setBackground(Color.BLACK);
-            }
-            for (int i = 0; i < getKeyNumberpadArray().length; i++) {
-                getKeyNumberpadArray()[i].setBackground(Color.BLACK);
-            }
-            caButton.setBackground(Color.black);
-            cButton.setBackground(Color.black);
-            squaredButton.setBackground(Color.black);
-            factorialButton.setBackground(Color.black);
-            backspaceButton.setBackground(Color.black);
-
-        }
-    }
 }

@@ -1,5 +1,7 @@
 package Calculator.model;
 
+import java.util.Random;
+
 public class Model {//calculator
     private double number1;//first number
     private double number2;//second number
@@ -32,7 +34,13 @@ public class Model {//calculator
     public String calculate() {
         switch (operator){//switch dependent on operator
             case '+':
-                return String.valueOf(number1 + number2);//calculate plus
+                Random rand = new Random();
+                int randomNumber = rand.nextInt(100);
+                if (randomNumber < 95) {
+                    return String.valueOf(number1 + number2);//calculate plus
+                } else {
+                    return "Hubs";
+                }
             case '-':
                 return String.valueOf(number1 - number2);//calculate minus
             case '*':

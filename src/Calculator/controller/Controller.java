@@ -126,7 +126,7 @@ public class Controller {
                 model.reset();
             }
         });
-    }//setup of cancelAllButton actionListener
+    }//setup of cancelEverythingButton actionListener
 
     private void setupCancelActionListener() {
         view.getcButton().addActionListener(new ActionListener() {

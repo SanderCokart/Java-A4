@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fda42935-5a16-47ef-82fd-461ba6c93054" name="Default Changelist" comment="Created a fully working cal">
-      <change afterPath="$PROJECT_DIR$/src/Calculator/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculator/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculator/model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculator/view/View.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculator/view/View.java" afterDir="false" />
+    <list default="true" id="fda42935-5a16-47ef-82fd-461ba6c93054" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator/view/View.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/view/View.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/view/View.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +19,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Java A4" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calculator/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -37,31 +36,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calculator/model/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+            <state relative-caret-position="420">
+              <caret line="65" column="49" lean-forward="true" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
               <folding>
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#initOperatorKeypadArray#0;class#View#0" />
-                <element signature="method#filterTextfield#0;class#View#0" />
+                <element signature="method#Model#0;class#Model#0" />
+                <element signature="method#setOperator#0;class#Model#0" />
+                <element signature="method#setOperatorIsPressed#0;class#Model#0" />
+                <element signature="n#!!block;n#getOperatorIsPressed#0;n#Model#0" />
+                <element signature="method#calculate#0;class#Model#0" />
+                <element signature="e#943#1596#0" />
+                <element signature="e#1340#1467#1" />
+                <element signature="e#1473#1586#1" />
+                <element signature="method#reset#0;class#Model#0" />
+                <element signature="method#calculateFactorial#0;class#Model#0" />
+                <element signature="e#2107#2108#0" expanded="true" />
+                <element signature="e#2140#2141#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+              <folding>
+                <element signature="method#initOperatorKeypadArray#0;class#View#0" />
+                <element signature="method#initNumberKeypadArray#0;class#View#0" />
+                <element signature="method#filterTextfield#0;class#View#0" />
+                <element signature="method#createFrame#0;class#View#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
@@ -69,14 +79,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calculator/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+            <state relative-caret-position="39">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#setupFactorialButtonActionListener#0;class#Controller#0" />
+                <element signature="class#830:1183" />
+                <element signature="method#actionPerformed#0;class#830:1183" />
+                <element signature="e#986#1159#1" />
+                <element signature="method#setupBackspaceButtonActionListener#0;class#Controller#0" />
+                <element signature="class#1305:1622" />
+                <element signature="method#actionPerformed#0;class#1305:1622" />
+                <element signature="e#1460#1598#1" />
+                <element signature="method#setupOperatorpadActionListener#0;class#Controller#0" />
+                <element signature="e#1755#3921#1" />
+                <element signature="class#1868:3909" />
+                <element signature="method#actionPerformed#0;class#1868:3909" />
+                <element signature="e#2035#3877#1" />
+                <element signature="e#2123#3855#0" />
                 <element signature="method#setupNumberpadActionListener#0;class#Controller#0" />
+                <element signature="e#4089#4470#1" />
+                <element signature="class#4200:4458" />
+                <element signature="method#actionPerformed#0;class#4200:4458" />
                 <element signature="method#setupCancelAllActionListener#0;class#Controller#0" />
+                <element signature="class#4618:4813" />
+                <element signature="method#actionPerformed#0;class#4618:4813" />
                 <element signature="method#setupCancelActionListener#0;class#Controller#0" />
+                <element signature="class#4959:5123" />
+                <element signature="e#5567#5568#0" expanded="true" />
+                <element signature="e#5624#5625#0" expanded="true" />
                 <element signature="method#setupTextFieldKeyListener#0;class#Controller#0" />
+                <element signature="class#5265:7563" />
+                <element signature="method#keyTyped#0;class#5265:7563" />
+                <element signature="method#keyPressed#0;class#5265:7563" />
+                <element signature="method#keyReleased#0;class#5265:7563" />
+                <element signature="e#5582#7539#1" />
+                <element signature="e#5638#7151#1" />
+                <element signature="e#5687#7129#0" />
+                <element signature="e#7286#7521#1" />
               </folding>
             </state>
           </provider>
@@ -114,14 +153,15 @@
         <option value="$PROJECT_DIR$/src/Calculator/view/calculatorPanel.java" />
         <option value="$PROJECT_DIR$/src/Calculator/Runner.java" />
         <option value="$PROJECT_DIR$/src/Calculator/model/Model.java" />
-        <option value="$PROJECT_DIR$/src/Calculator/view/View.java" />
         <option value="$PROJECT_DIR$/src/Calculator/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/Calculator/view/View.java" />
         <option value="$PROJECT_DIR$/src/Calculator/view/View.form" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="605" />
+    <option name="y" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -130,39 +170,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Java A4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java A4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java A4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java A4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java A4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java A4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java A4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java A4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -303,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560880427958</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created a fully working calculator, needs commenting.">
+      <created>1560890140094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560890140094</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -330,16 +345,16 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.141258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32887402" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33110368" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,13 +373,43 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.141258" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" visible="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33110368" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998884" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32998884" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32998884" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/src" />
     </ignored-roots>
     <MESSAGE value="UPLOAD JAVA A4" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPLOAD JAVA A4" />
+    <MESSAGE value="Created a fully working calculator, needs commenting." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a fully working calculator, needs commenting." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/test/ModelTest.java" />
@@ -407,67 +452,94 @@
     <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/view/View.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/view/calculatorPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.jfd" />
+    <entry file="file://$PROJECT_DIR$/src/Calculator/view/calculatorPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/Calculator/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="43" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initOperatorKeypadArray#0;class#View#0" />
-            <element signature="method#filterTextfield#0;class#View#0" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        <state relative-caret-position="420">
+          <caret line="65" column="49" lean-forward="true" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
           <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#Model#0;class#Model#0" />
+            <element signature="method#setOperator#0;class#Model#0" />
+            <element signature="method#setOperatorIsPressed#0;class#Model#0" />
+            <element signature="n#!!block;n#getOperatorIsPressed#0;n#Model#0" />
+            <element signature="method#calculate#0;class#Model#0" />
+            <element signature="e#943#1596#0" />
+            <element signature="e#1340#1467#1" />
+            <element signature="e#1473#1586#1" />
+            <element signature="method#reset#0;class#Model#0" />
+            <element signature="method#calculateFactorial#0;class#Model#0" />
+            <element signature="e#2107#2108#0" expanded="true" />
+            <element signature="e#2140#2141#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+        <state relative-caret-position="39">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#setupFactorialButtonActionListener#0;class#Controller#0" />
+            <element signature="class#830:1183" />
+            <element signature="method#actionPerformed#0;class#830:1183" />
+            <element signature="e#986#1159#1" />
+            <element signature="method#setupBackspaceButtonActionListener#0;class#Controller#0" />
+            <element signature="class#1305:1622" />
+            <element signature="method#actionPerformed#0;class#1305:1622" />
+            <element signature="e#1460#1598#1" />
+            <element signature="method#setupOperatorpadActionListener#0;class#Controller#0" />
+            <element signature="e#1755#3921#1" />
+            <element signature="class#1868:3909" />
+            <element signature="method#actionPerformed#0;class#1868:3909" />
+            <element signature="e#2035#3877#1" />
+            <element signature="e#2123#3855#0" />
             <element signature="method#setupNumberpadActionListener#0;class#Controller#0" />
+            <element signature="e#4089#4470#1" />
+            <element signature="class#4200:4458" />
+            <element signature="method#actionPerformed#0;class#4200:4458" />
             <element signature="method#setupCancelAllActionListener#0;class#Controller#0" />
+            <element signature="class#4618:4813" />
+            <element signature="method#actionPerformed#0;class#4618:4813" />
             <element signature="method#setupCancelActionListener#0;class#Controller#0" />
+            <element signature="class#4959:5123" />
+            <element signature="e#5567#5568#0" expanded="true" />
+            <element signature="e#5624#5625#0" expanded="true" />
             <element signature="method#setupTextFieldKeyListener#0;class#Controller#0" />
+            <element signature="class#5265:7563" />
+            <element signature="method#keyTyped#0;class#5265:7563" />
+            <element signature="method#keyPressed#0;class#5265:7563" />
+            <element signature="method#keyReleased#0;class#5265:7563" />
+            <element signature="e#5582#7539#1" />
+            <element signature="e#5638#7151#1" />
+            <element signature="e#5687#7129#0" />
+            <element signature="e#7286#7521#1" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.form">
       <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding>
+            <element signature="method#initOperatorKeypadArray#0;class#View#0" />
+            <element signature="method#initNumberKeypadArray#0;class#View#0" />
+            <element signature="method#filterTextfield#0;class#View#0" />
+            <element signature="method#createFrame#0;class#View#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

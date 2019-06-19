@@ -20,6 +20,44 @@ public class Controller {
         setupCancelAllActionListener();
         setupNumberpadActionListener();
         setupOperatorpadActionListener();
+        setupBackspaceButtonActionListener();
+        setupFactorialButtonActionListener();
+        setupSquaredButtonActionListener();
+    }//constructor
+
+    private void setupSquaredButtonActionListener() {
+        view.getSquaredButton().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (view.getTextFieldText().length() > 0){
+                    model.setNumber1(Double.parseDouble(view.getTextFieldText()));
+                    view.setTextFieldText(model.calculateSquared());
+                }
+            }
+        });
+    }
+
+    private void setupFactorialButtonActionListener() {
+        view.getFactorialButton().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (view.getTextFieldText().length() > 0) {
+                    model.setNumber1(Double.parseDouble(view.getTextFieldText()));
+                    view.setTextFieldText(model.calculateFactorial());
+                }
+            }
+        });
+    }
+
+    private void setupBackspaceButtonActionListener() {
+        view.getBackspaceButton().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (view.getTextFieldText().length() > 0){
+                    view.setTextFieldText(view.getTextFieldText().substring(0, view.getTextFieldText().length() - 1));
+                }
+            }
+        });
     }
 
     private void setupOperatorpadActionListener() {
@@ -29,41 +67,43 @@ public class Controller {
             view.getKeyOperatorpadArray()[loopTracker].addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    switch (view.getKeyOperatorpadArray()[loopTracker].getText()){
-                        case "+":
-                            model.setOperator('+');
-                            model.setOperatorIsPressed(true);
-                            model.setNumber1(Double.parseDouble(view.getTextFieldText()));
-                            view.setTextFieldText("");
-                            break;
-                        case "-":
-                            model.setOperator('-');
-                            model.setOperatorIsPressed(true);
-                            model.setNumber1(Double.parseDouble(view.getTextFieldText()));
-                            view.setTextFieldText("");
-                            break;
-                        case "*":
-                            model.setOperator('*');
-                            model.setOperatorIsPressed(true);
-                            model.setNumber1(Double.parseDouble(view.getTextFieldText()));
-                            view.setTextFieldText("");
-                            break;
-                        case "/":
-                            model.setOperator('/');
-                            model.setOperatorIsPressed(true);
-                            model.setNumber1(Double.parseDouble(view.getTextFieldText()));
-                            view.setTextFieldText("");
-                            break;
-                        case "=":
-                            model.setNumber2(Double.parseDouble(view.getTextFieldText()));
-                            view.setTextFieldText(model.calculate());
-                            model.reset();
-                            break;
+                    if (view.getTextFieldText().length() > 0){
+                        switch (view.getKeyOperatorpadArray()[loopTracker].getText()) {
+                            case "+":
+                                model.setOperator('+');
+                                model.setOperatorIsPressed(true);
+                                model.setNumber1(Double.parseDouble(view.getTextFieldText()));
+                                view.setTextFieldText("");
+                                break;
+                            case "-":
+                                model.setOperator('-');
+                                model.setOperatorIsPressed(true);
+                                model.setNumber1(Double.parseDouble(view.getTextFieldText()));
+                                view.setTextFieldText("");
+                                break;
+                            case "*":
+                                model.setOperator('*');
+                                model.setOperatorIsPressed(true);
+                                model.setNumber1(Double.parseDouble(view.getTextFieldText()));
+                                view.setTextFieldText("");
+                                break;
+                            case "/":
+                                model.setOperator('/');
+                                model.setOperatorIsPressed(true);
+                                model.setNumber1(Double.parseDouble(view.getTextFieldText()));
+                                view.setTextFieldText("");
+                                break;
+                            case "=":
+                                model.setNumber2(Double.parseDouble(view.getTextFieldText()));
+                                view.setTextFieldText(model.calculate());
+                                model.reset();
+                                break;
+                        }
                     }
                 }
             });
         }
-    }
+    }//setup of operatorKeypads actionListener
 
     private void setupNumberpadActionListener() {
         for (int i = 0; i < view.getKeyNumberpadArray().length; i++) {
@@ -76,7 +116,7 @@ public class Controller {
                 }
             });
         }
-    }
+    }//setup of numberedKeypads actionListener
 
     private void setupCancelAllActionListener() {
         view.getCaButton().addActionListener(new ActionListener() {
@@ -86,18 +126,16 @@ public class Controller {
                 model.reset();
             }
         });
-    }
+    }//setup of cancelAllButton actionListener
 
     private void setupCancelActionListener() {
         view.getcButton().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (view.getTextFieldText().length() > 0){
-                    view.setTextFieldText(view.getTextFieldText().substring(0, view.getTextFieldText().length() - 1));
-                }
+                view.setTextFieldText("");
             }
         });
-    }
+    }//setup of cancelButton actionListener
 
     private void setupTextFieldKeyListener() {
         view.getTextField().addKeyListener(new KeyListener() {
@@ -153,7 +191,5 @@ public class Controller {
                 }
             }
         });
-    }
-
-
+    }//setup of textField actionListener
 }

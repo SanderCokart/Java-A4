@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator.view.View">
-  <grid id="27dc6" binding="calculatorPanel" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+  <grid id="27dc6" binding="calculatorPanel" layout-manager="GridLayoutManager" row-count="6" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
@@ -10,210 +10,244 @@
     <children>
       <component id="646b0" class="javax.swing.JButton" binding="cButton" default-binding="true">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="C"/>
         </properties>
       </component>
       <component id="c9957" class="javax.swing.JButton" binding="keypad7">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="7"/>
         </properties>
       </component>
       <component id="e244d" class="javax.swing.JButton" binding="keypad4">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="4"/>
         </properties>
       </component>
       <component id="905af" class="javax.swing.JButton" binding="keypad1">
         <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="1"/>
         </properties>
       </component>
       <component id="cb3cc" class="javax.swing.JButton" binding="keypadDot">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="."/>
         </properties>
       </component>
       <component id="481e8" class="javax.swing.JButton" binding="keypad8">
         <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="8"/>
         </properties>
       </component>
       <component id="90ba8" class="javax.swing.JButton" binding="keypad5">
         <constraints>
-          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="5"/>
         </properties>
       </component>
       <component id="7e69e" class="javax.swing.JButton" binding="keypad2">
         <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="2"/>
         </properties>
       </component>
       <component id="82bf6" class="javax.swing.JButton" binding="keypad0">
         <constraints>
-          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="0"/>
         </properties>
       </component>
       <component id="fe1dd" class="javax.swing.JButton" binding="keypad9">
         <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="9"/>
         </properties>
       </component>
       <component id="bfab0" class="javax.swing.JButton" binding="keypad6">
         <constraints>
-          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="6"/>
         </properties>
       </component>
       <component id="eeaf" class="javax.swing.JButton" binding="keypad3">
         <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="3"/>
         </properties>
       </component>
       <component id="4068" class="javax.swing.JButton" binding="keypadEquals">
         <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="="/>
         </properties>
       </component>
-      <component id="b8f38" class="javax.swing.JButton" binding="caButton">
-        <constraints>
-          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
-          <foreground color="-1"/>
-          <text value="CA"/>
-        </properties>
-      </component>
       <component id="d3d19" class="javax.swing.JButton" binding="keypadDivide">
         <constraints>
-          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="/"/>
         </properties>
       </component>
       <component id="215be" class="javax.swing.JButton" binding="keypadMultiply">
         <constraints>
-          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="*"/>
         </properties>
       </component>
       <component id="a6dce" class="javax.swing.JButton" binding="keypadMinus">
         <constraints>
-          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="-"/>
         </properties>
       </component>
       <component id="81679" class="javax.swing.JButton" binding="keypadPlus">
         <constraints>
-          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-5636096"/>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
           <foreground color="-1"/>
           <text value="+"/>
         </properties>
       </component>
       <component id="8d29e" class="javax.swing.JTextField" binding="textField">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties>
-          <font name="Unispace" size="24" style="1"/>
+          <font name="Roboto" size="24" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b8f38" class="javax.swing.JButton" binding="caButton">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5636096"/>
+          <font name="Roboto" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="CA"/>
+        </properties>
+      </component>
+      <component id="40e48" class="javax.swing.JButton" binding="backspaceButton">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5636096"/>
+          <font name="Roboto" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="&lt;"/>
+        </properties>
+      </component>
+      <component id="4a37e" class="javax.swing.JButton" binding="factorialButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5636096"/>
+          <font name="Roboto" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="n!"/>
+        </properties>
+      </component>
+      <component id="db9df" class="javax.swing.JButton" binding="squaredButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5636096"/>
+          <font name="Roboto" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="x²"/>
         </properties>
       </component>
     </children>

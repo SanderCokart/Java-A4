@@ -271,6 +271,17 @@
           <text value="&lt;"/>
         </properties>
       </component>
+      <component id="6df52" class="javax.swing.JButton" binding="squareRootButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15527149"/>
+          <font name="Roboto" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="√"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

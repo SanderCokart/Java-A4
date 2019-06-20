@@ -73,4 +73,8 @@ public class Model {//calculator
     public String calculateSquared(){
         return String.valueOf(number1 * number1);
     }
+
+    public String calculateSquareRoot(double number) {
+        return String.valueOf(Math.sqrt(number));
+    }
 }

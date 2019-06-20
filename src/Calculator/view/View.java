@@ -31,6 +31,7 @@ public class View{
     private JButton squaredButton;
     private JCheckBox darkModeCheckBox;
     private JToolBar toolBar;
+    private JButton squareRootButton;
     private JButton[] keyNumberpadArray;
     private JButton[] keyOperatorpadArray;
     private JButton[] otherButtonsArray;
@@ -282,12 +283,13 @@ public class View{
     }//determines the colors of the number buttons it is dependent on dark mode
 
     private void initOtherButtonsArray() {
-        otherButtonsArray = new JButton[5];
+        otherButtonsArray = new JButton[6];
         otherButtonsArray[0] = backspaceButton;
         otherButtonsArray[1] = factorialButton;
         otherButtonsArray[2] = cButton;
         otherButtonsArray[3] = caButton;
         otherButtonsArray[4] = squaredButton;
+        otherButtonsArray[5] = squareRootButton;
     }//initializes an array containing all operator buttons
 
     private void initOperatorKeypadArray() {
@@ -384,4 +386,7 @@ public class View{
         return squaredButton;
     }//returns squareButton object
 
+    public JButton getSquareRootButton() {
+        return squareRootButton;
+    }
 }

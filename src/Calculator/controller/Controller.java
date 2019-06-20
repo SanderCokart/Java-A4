@@ -23,7 +23,19 @@ public class Controller {
         setupBackspaceButtonActionListener();
         setupFactorialButtonActionListener();
         setupSquaredButtonActionListener();
+        setupSquaredRootButtonActionListener();
     }//constructor
+
+    private void setupSquaredRootButtonActionListener() {
+        view.getSquareRootButton().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (view.getTextFieldText().length() > 0){
+                    view.setTextFieldText(model.calculateSquareRoot(Double.parseDouble(view.getTextFieldText())));
+                }
+            }
+        });
+    }//setup of the squareRootButton actionListener
 
     private void setupSquaredButtonActionListener() {
         view.getSquaredButton().addActionListener(new ActionListener() {
@@ -35,7 +47,7 @@ public class Controller {
                 }
             }
         });
-    }
+    }//setup of the squareButton actionListener
 
     private void setupFactorialButtonActionListener() {
         view.getFactorialButton().addActionListener(new ActionListener() {
@@ -47,7 +59,7 @@ public class Controller {
                 }
             }
         });
-    }
+    }//setup of the factorialButton actionListener
 
     private void setupBackspaceButtonActionListener() {
         view.getBackspaceButton().addActionListener(new ActionListener() {
@@ -58,7 +70,7 @@ public class Controller {
                 }
             }
         });
-    }
+    }//setup of the backspaceButton actionListener
 
     private void setupOperatorpadActionListener() {
         for (int i = 0; i < view.getKeyOperatorpadArray().length; i++) {

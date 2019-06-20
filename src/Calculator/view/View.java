@@ -138,7 +138,7 @@ public class View{
         for (int i = 0; i < otherButtonsArray.length; i++) {
             otherButtonsArray[i].setFocusable(false);
         }
-    }//makes all elements except for the textField to be focusable
+    }//makes all elements except for the textField to not be focusable
 
     private void initColors() {
         toolBar.setBackground(new Color(31,31,31));
@@ -388,5 +388,5 @@ public class View{
 
     public JButton getSquareRootButton() {
         return squareRootButton;
-    }
+    }//returns squareRootButton object
 }

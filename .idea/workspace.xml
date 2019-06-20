@@ -3,8 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="fda42935-5a16-47ef-82fd-461ba6c93054" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/controller/Controller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/controller/Controller$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/controller/Controller$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/controller/Controller$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/model/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eindopdracht/eindopdrachtv2/view/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Eindopdracht/eindopdrachtv2/test/ModelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator/model/Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator/view/View.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator/view/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_assignment/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_assignment/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_assignment/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_assignment/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eindopdrachtv2/test/ModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/final_assignment/test/ModelTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,19 +37,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Calculator/Runner.java">
+        <entry file="file://$PROJECT_DIR$/src/final_assignment/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Calculator/model/Model.java">
+        <entry file="file://$PROJECT_DIR$/src/final_assignment/model/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+            <state relative-caret-position="437">
+              <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
               <folding>
                 <element signature="method#Model#0;class#Model#0" />
                 <element signature="method#setOperator#0;class#Model#0" />
@@ -47,18 +62,20 @@
                 <element signature="method#reset#0;class#Model#0" />
                 <element signature="method#calculateFactorial#0;class#Model#0" />
                 <element signature="e#2255#2291#1" />
-                <element signature="n#!!block;n#calculateSquared#0;n#Model#0" />
-                <element signature="method#calculateSquareRoot#0;class#Model#0" />
+                <element signature="e#2399#2400#0" expanded="true" />
+                <element signature="e#2455#2456#0" expanded="true" />
+                <element signature="e#2532#2533#0" expanded="true" />
+                <element signature="e#2589#2590#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/final_assignment/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1096">
-              <caret line="390" column="38" selection-start-line="390" selection-start-column="38" selection-end-line="390" selection-end-column="38" />
+            <state relative-caret-position="1480">
+              <caret line="374" column="34" selection-start-line="374" selection-start-column="34" selection-end-line="374" selection-end-column="34" />
               <folding>
                 <element signature="e#1159#1447#0" />
                 <element signature="e#1453#4813#0" />
@@ -139,18 +156,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.form">
+        <entry file="file://$PROJECT_DIR$/src/final_assignment/view/View.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Calculator/controller/Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/final_assignment/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+            <state relative-caret-position="320">
+              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
               <folding>
                 <element signature="method#Controller#0;class#Controller#0" />
-                <element signature="method#setupSquaredRootButtonActionListener#0;class#Controller#0" />
                 <element signature="method#setupSquaredButtonActionListener#0;class#Controller#0" />
                 <element signature="method#setupFactorialButtonActionListener#0;class#Controller#0" />
                 <element signature="method#setupBackspaceButtonActionListener#0;class#Controller#0" />
@@ -159,6 +175,18 @@
                 <element signature="method#setupCancelAllActionListener#0;class#Controller#0" />
                 <element signature="method#setupCancelActionListener#0;class#Controller#0" />
                 <element signature="method#setupTextFieldKeyListener#0;class#Controller#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/final_assignment/test/ModelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,6 +228,10 @@
         <option value="$PROJECT_DIR$/src/Calculator/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/Calculator/model/Model.java" />
         <option value="$PROJECT_DIR$/src/Calculator/view/View.java" />
+        <option value="$PROJECT_DIR$/src/eindopdracht/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/final_assignment/model/Model.java" />
+        <option value="$PROJECT_DIR$/src/final_assignment/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/test/final_assignment/test/ModelTest.java" />
       </list>
     </option>
   </component>
@@ -215,7 +247,22 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java A4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java A4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java A4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java A4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -256,26 +303,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (1)">
-    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator.Runner" />
-      <module name="Eindopdracht" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ModelTest.calculateSqareRoot">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eindopdrachtv2.Runner" />
+      <option name="MAIN_CLASS_NAME" value="final_assignment.Runner" />
       <module name="Eindopdracht" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eindopdrachtv2.*" />
+          <option name="PATTERN" value="final_assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,12 +321,12 @@
       <module name="Eindopdracht" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eindopdrachtv2.test.*" />
+          <option name="PATTERN" value="final_assignment.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="eindopdrachtv2.test" />
-      <option name="MAIN_CLASS_NAME" value="eindopdrachtv2.test.ModelTest" />
+      <option name="PACKAGE_NAME" value="final_assignment.test" />
+      <option name="MAIN_CLASS_NAME" value="final_assignment.test.ModelTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -302,12 +336,12 @@
       <module name="Eindopdracht" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eindopdrachtv2.test.*" />
+          <option name="PATTERN" value="final_assignment.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="eindopdrachtv2.test" />
-      <option name="MAIN_CLASS_NAME" value="eindopdrachtv2.test.ModelTest" />
+      <option name="PACKAGE_NAME" value="final_assignment.test" />
+      <option name="MAIN_CLASS_NAME" value="final_assignment.test.ModelTest" />
       <option name="METHOD_NAME" value="calculate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -318,13 +352,29 @@
       <module name="Eindopdracht" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eindopdrachtv2.test.*" />
+          <option name="PATTERN" value="final_assignment.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="eindopdrachtv2.test" />
-      <option name="MAIN_CLASS_NAME" value="eindopdrachtv2.test.ModelTest" />
+      <option name="PACKAGE_NAME" value="final_assignment.test" />
+      <option name="MAIN_CLASS_NAME" value="final_assignment.test.ModelTest" />
       <option name="METHOD_NAME" value="calculateDivide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelTest.calculateSqareRoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Eindopdracht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="final_assignment.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="final_assignment.test" />
+      <option name="MAIN_CLASS_NAME" value="final_assignment.test.ModelTest" />
+      <option name="METHOD_NAME" value="calculateSqareRoot" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -332,11 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ModelTest.calculateSqareRoot" />
         <item itemvalue="Application.Runner (1)" />
         <item itemvalue="JUnit.ModelTest" />
         <item itemvalue="JUnit.ModelTest.calculateDivide" />
         <item itemvalue="JUnit.ModelTest.calculate" />
-        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +443,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561014928334</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added comments">
+      <created>1561015900916</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561015900916</updated>
+    </task>
+    <task id="LOCAL-00008" summary="removed eindopdrachtv2 and changed name of Calculator to final_assignment">
+      <created>1561016151254</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561016151254</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -446,7 +510,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.506917" side_tool="true" weight="0.3310811" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998884" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49505928" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49505928" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.49946696" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -497,7 +561,9 @@
     <MESSAGE value="DARK MODE!" />
     <MESSAGE value="easter egg added" />
     <MESSAGE value="added squareRoot functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="added squareRoot functionality" />
+    <MESSAGE value="added comments" />
+    <MESSAGE value="removed eindopdrachtv2 and changed name of Calculator to final_assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed eindopdrachtv2 and changed name of Calculator to final_assignment" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/test/ModelTest.java" />
@@ -523,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/eindopdrachtv2/test/ModelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eindopdrachtv2/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="788">
@@ -542,92 +601,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.jfd" />
     <entry file="file://$PROJECT_DIR$/src/Calculator/view/calculatorPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/Calculator/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/final_assignment/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-          <folding>
-            <element signature="method#Controller#0;class#Controller#0" />
-            <element signature="method#setupSquaredRootButtonActionListener#0;class#Controller#0" />
-            <element signature="class#925:1198" />
-            <element signature="method#actionPerformed#0;class#925:1198" />
-            <element signature="e#1080#1187#1" />
-            <element signature="method#setupSquaredButtonActionListener#0;class#Controller#0" />
-            <element signature="class#870:1220" />
-            <element signature="method#actionPerformed#0;class#870:1220" />
-            <element signature="e#1025#1196#1" />
-            <element signature="method#setupFactorialButtonActionListener#0;class#Controller#0" />
-            <element signature="class#1342:1695" />
-            <element signature="method#actionPerformed#0;class#1342:1695" />
-            <element signature="e#1498#1671#1" />
-            <element signature="method#setupBackspaceButtonActionListener#0;class#Controller#0" />
-            <element signature="class#1817:2134" />
-            <element signature="method#actionPerformed#0;class#1817:2134" />
-            <element signature="e#1972#2110#1" />
-            <element signature="method#setupOperatorpadActionListener#0;class#Controller#0" />
-            <element signature="e#2931#5166#1" />
-            <element signature="class#3044:5154" />
-            <element signature="method#actionPerformed#0;class#3044:5154" />
-            <element signature="e#3211#5122#1" />
-            <element signature="e#3299#5100#0" />
-            <element signature="method#setupNumberpadActionListener#0;class#Controller#0" />
-            <element signature="e#4601#4982#1" />
-            <element signature="class#4712:4970" />
-            <element signature="method#actionPerformed#0;class#4712:4970" />
-            <element signature="method#setupCancelAllActionListener#0;class#Controller#0" />
-            <element signature="class#5130:5325" />
-            <element signature="method#actionPerformed#0;class#5130:5325" />
-            <element signature="method#setupCancelActionListener#0;class#Controller#0" />
-            <element signature="class#5478:5642" />
-            <element signature="method#setupTextFieldKeyListener#0;class#Controller#0" />
-            <element signature="class#5784:8082" />
-            <element signature="method#keyTyped#0;class#5784:8082" />
-            <element signature="method#keyPressed#0;class#5784:8082" />
-            <element signature="method#keyReleased#0;class#5784:8082" />
-            <element signature="e#6101#8058#1" />
-            <element signature="e#6157#7670#1" />
-            <element signature="e#6206#7648#0" />
-            <element signature="e#7805#8040#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.form">
+    <entry file="file://$PROJECT_DIR$/src/final_assignment/view/View.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/model/Model.java">
+    <entry file="file://$PROJECT_DIR$/src/final_assignment/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
-          <folding>
-            <element signature="method#Model#0;class#Model#0" />
-            <element signature="method#setOperator#0;class#Model#0" />
-            <element signature="method#setOperatorIsPressed#0;class#Model#0" />
-            <element signature="n#!!block;n#getOperatorIsPressed#0;n#Model#0" />
-            <element signature="method#calculate#0;class#Model#0" />
-            <element signature="e#1160#1257#1" />
-            <element signature="e#1263#1366#1" />
-            <element signature="e#1769#1882#1" />
-            <element signature="method#reset#0;class#Model#0" />
-            <element signature="method#calculateFactorial#0;class#Model#0" />
-            <element signature="e#2255#2291#1" />
-            <element signature="n#!!block;n#calculateSquared#0;n#Model#0" />
-            <element signature="method#calculateSquareRoot#0;class#Model#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1096">
-          <caret line="390" column="38" selection-start-line="390" selection-start-column="38" selection-end-line="390" selection-end-column="38" />
+        <state relative-caret-position="1480">
+          <caret line="374" column="34" selection-start-line="374" selection-start-column="34" selection-end-line="374" selection-end-column="34" />
           <folding>
             <element signature="e#1159#1447#0" />
             <element signature="e#1453#4813#0" />
@@ -702,6 +689,58 @@
             <element signature="method#keyReleased#0;class#11930:12449" />
             <element signature="e#12240#12425#1" />
             <element signature="e#12527#12852#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/final_assignment/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="method#Controller#0;class#Controller#0" />
+            <element signature="method#setupSquaredButtonActionListener#0;class#Controller#0" />
+            <element signature="method#setupFactorialButtonActionListener#0;class#Controller#0" />
+            <element signature="method#setupBackspaceButtonActionListener#0;class#Controller#0" />
+            <element signature="method#setupOperatorpadActionListener#0;class#Controller#0" />
+            <element signature="method#setupNumberpadActionListener#0;class#Controller#0" />
+            <element signature="method#setupCancelAllActionListener#0;class#Controller#0" />
+            <element signature="method#setupCancelActionListener#0;class#Controller#0" />
+            <element signature="method#setupTextFieldKeyListener#0;class#Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/final_assignment/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+          <folding>
+            <element signature="method#Model#0;class#Model#0" />
+            <element signature="method#setOperator#0;class#Model#0" />
+            <element signature="method#setOperatorIsPressed#0;class#Model#0" />
+            <element signature="n#!!block;n#getOperatorIsPressed#0;n#Model#0" />
+            <element signature="method#calculate#0;class#Model#0" />
+            <element signature="e#1160#1257#1" />
+            <element signature="e#1263#1366#1" />
+            <element signature="e#1769#1882#1" />
+            <element signature="method#reset#0;class#Model#0" />
+            <element signature="method#calculateFactorial#0;class#Model#0" />
+            <element signature="e#2255#2291#1" />
+            <element signature="e#2399#2400#0" expanded="true" />
+            <element signature="e#2455#2456#0" expanded="true" />
+            <element signature="e#2532#2533#0" expanded="true" />
+            <element signature="e#2589#2590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/final_assignment/test/ModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

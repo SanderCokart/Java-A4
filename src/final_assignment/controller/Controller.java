@@ -31,7 +31,8 @@ public class Controller {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (view.getTextFieldText().length() > 0){
-                    view.setTextFieldText(model.calculateSquareRoot(Double.parseDouble(view.getTextFieldText())));
+                    model.setNumber1(Double.parseDouble(view.getTextFieldText()));
+                    view.setTextFieldText(model.calculateSquareRoot());
                 }
             }
         });

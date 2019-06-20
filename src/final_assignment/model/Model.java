@@ -74,7 +74,7 @@ public class Model {//calculator
         return String.valueOf(number1 * number1);
     }//calculate square of number
 
-    public String calculateSquareRoot(double number) {
-        return String.valueOf(Math.sqrt(number));
+    public String calculateSquareRoot() {
+        return String.valueOf(Math.sqrt(number1));
     }//calculates square root of number
 }
